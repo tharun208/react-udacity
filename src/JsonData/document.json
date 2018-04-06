@@ -4,7 +4,7 @@
      "Name":"Data Scientist Foundation"
    },
    {
-    "Name":"Neural Networks Foundation" 
+    "Name":"Neural Networks Foundation"
    },
    {
      "Name":"Data Structures and Algorithm Foundation"
@@ -23,7 +23,7 @@
      "Name":"Machine Learning Foundation Nanodegree",
      "Instructor":"Kaggle"
    }],
-   "Machine a and Deep Learning":[
+   "msd":[
      {
        "Name":"Deep Learning"
      },
@@ -35,7 +35,7 @@
        "Name":"Machine Learning Foundation Nanodegree",
        "Instructor":"Kaggle"
      }],
-     "Data Science":[
+     "ds":[
        {
          "Name":"Data Scientist Foundation"
        },
@@ -55,7 +55,7 @@
          "Instructor":["alteryx","Tableu"]
        }
        ],
-       "Artificial Intelligence":[
+       "ai":[
          {
           "Name":"Neural Networks Foundation"
          },
@@ -66,7 +66,7 @@
            "Name":"Artifical Intelligence",
            "Instructor":["Google","alexa"]
          }],
-         "Mobile Development":[
+         "md":[
            {
             "Name": "Java Foundation"
            },{
@@ -76,7 +76,7 @@
              "Name":"Become and Ios Developer",
              "Instructors":["Google","at&t","lyft"]
            }],
-           "Web Development":[
+           "wd":[
              {
                "Name":"DevOps Foundation NanoDegree"
              },
@@ -86,7 +86,7 @@
              {
                "Name":"React"
              }],
-             "Virtual Reality":[
+             "vr":[
                {
                 "Name":"VR Developer"
                },
@@ -96,7 +96,7 @@
                {
                  "Name":"Learn UnRealVR"
                }],
-               "Digital Marketing":[
+               "dm":[
                  {
                    "Name":"Google Adwords"
                  },
@@ -106,7 +106,7 @@
                  {
                    "Name":"Design Sprint Foundation"
                  }],
-                 "Autonomous Systems":[
+                 "as":[
                    {
                      "Name":"Intro To Self Driving Car"
                    },
