@@ -1,6 +1,6 @@
 import React,{ Component } from 'react';
 import './App.css';
-import imgsrc from './assets/images/img_avatar.png';
+import imgsrc from './assets/images/referrals@2x.jpg';
 class Cards extends Component {
   render()
   {
