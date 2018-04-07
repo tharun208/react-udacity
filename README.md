@@ -4,5 +4,5 @@ Clone the Project [From This Link](https://github.com/tharun208/react-udacity.gi
 
 # Setup
 
-1. ```yarn install ```
-2. ``` yarn start``` 
+1. ```npm install ```
+2. ``` npm start``` 
