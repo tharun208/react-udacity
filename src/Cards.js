@@ -7,7 +7,9 @@ class Cards extends Component {
     return (
          <div className="column">
          <div className="card">
-                <img src={imgsrc} alt="Avatar"/>
+                <a href={this.props.url}>
+                <img src={imgsrc} alt={this.props.name}/>
+                </a>
                 <div className="container">
                      <h4>{this.props.name}</h4>
                       <p>{this.props.instructor}</p>

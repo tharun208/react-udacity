@@ -14,46 +14,46 @@ class App extends Component {
     console.log(courseName);
     if(courseName === 'popular'){
     return Data.popular.map((i) => {
-      return <div><Cards name={i.Name} instructor={i.Instructor}/></div>
+      return <div><Cards name={i.Name} instructor={i.Instructor} url={i.url}/></div>
     })
   }
   else if(courseName === 'Machine Learning and Deep Learning'){
     return Data.msd.map((i) => {
-      return <div><Cards name={i.Name} instructor={i.Instructor}/></div>
+      return <div><Cards name={i.Name} instructor={i.Instructor} url={i.url}/></div>
     })
   }
     else if(courseName === 'Data Science'){
       return Data.ds.map((i) => {
-        return <div><Cards name={i.Name} instructor={i.Instructor}/></div>
+        return <div><Cards name={i.Name} instructor={i.Instructor} url={i.url}/></div>
       })
     }
     else if(courseName === 'Artificial Intelligence'){
       return Data.ai.map((i) => {
-        return <div><Cards name={i.Name} instructor={i.Instructor}/></div>
+        return <div><Cards name={i.Name} instructor={i.Instructor} url={i.url}/></div>
       })
     }
     else if(courseName === 'Mobile Development'){
       return Data.md.map((i) => {
-        return <div><Cards name={i.Name} instructor={i.Instructor}/></div>
+        return <div><Cards name={i.Name} instructor={i.Instructor} url={i.url}/></div>
       })
     }
     else if(courseName === 'Web Development'){
       return Data.wd.map((i) => {
-        return <div><Cards name={i.Name} instructor={i.Instructor}/></div>
+        return <div><Cards name={i.Name} instructor={i.Instructor} url={i.url}/></div>
       })
     }
     else if(courseName === 'Virtual Reality'){
       return Data.vr.map((i) => {
-        return <div><Cards name={i.Name} instructor={i.Instructor}/></div>
+        return <div><Cards name={i.Name} instructor={i.Instructor} url={i.url}/></div>
       })
     }
     else if(courseName === 'Digital Marketing'){
       return Data.dm.map((i) => {
-        return <div><Cards name={i.Name} instructor={i.Instructor}/></div>
+        return <div><Cards name={i.Name} instructor={i.Instructor} url={i.url}/></div>
       })
     } else {
     return Data.as.map((i) => {
-      return <div><Cards name={i.Name} instructor={i.Instructor}/></div>
+      return <div><Cards name={i.Name} instructor={i.Instructor} url={i.url}/></div>
     })
   }
   }
